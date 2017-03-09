@@ -1,0 +1,15 @@
+{application, erl_port_spike,
+ [{id, "erl_port_spike"},
+  {description, "An OTP application"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {mod, {erl_port_spike, []}},
+  {applications,
+   [kernel,
+    stdlib]},
+  {env,[]},
+  {modules, []},
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.
